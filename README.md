@@ -1,2 +1,2 @@
-# theWay
+# yourWay
 Choose your own story
