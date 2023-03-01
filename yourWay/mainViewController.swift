@@ -78,7 +78,6 @@ final class ViewController: UIViewController {
         stackView.addArrangedSubview(upButton)
         stackView.addArrangedSubview(downButton)
     }
-    
     private func layoutConstraint() {
         NSLayoutConstraint.activate([
             backgroundImage.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -112,5 +111,3 @@ final class ViewController: UIViewController {
         static let buttonBorderWidth: CGFloat = 2.0
     }
 }
-
-
